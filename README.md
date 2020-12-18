@@ -1,6 +1,7 @@
 # Identification of new particles from LHC dataset using Machine Learning
 
 By - Subhojit Pal (Department of Physics) and Subhajit Pramanik (Department of Economic Sciences)
+     
      Indian Institute of Science Education and Research (IISER), Bhopal
 
 In this project, we have made a model which will train a classifier to identify the type of a particle,
