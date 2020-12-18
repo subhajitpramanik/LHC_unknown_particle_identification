@@ -1,6 +1,13 @@
-# python_trial
+# Identification of new particles from LHC dataset using Machine Learning
 
-There are six particle types: electron, proton, muon, kaon, pion and ghost. 
-Ghost is a particle with other type than the first five or a detector noise.
-Different particle types remain different responses in the detector systems or subdetectors. 
-Thre are five systems: tracking system, ring imaging Cherenkov detector (RICH), electromagnetic and hadron calorimeters, and muon system. The task of the model is to identify a particle type using the responses in the detector systems.
+By - Subhojit Pal (Department of Physics) and Subhajit Pramanik (Department of Economic Sciences)
+     Indian Institute of Science Education and Research (IISER), Bhopal
+
+In this project, we have made a model which will train a classifier to identify the type of a particle,
+using the datasets of particle collision at LHC. There are mainly five types of particle: electron,
+proton, muon, kaon, pion. The model is capable of finding some new particle, which is not among
+the first five or detector noise. Different particle types remain different responses in the detector
+systems or subdetectors. Thre are five systems: tracking system, Ring imaging Cherenkov detector
+(RICH), Electromagnetic and Hadron calorimeters, and Muon system. In every level, the particle
+response differently. The model will identify the type of particles using the responses in the detector
+systems.
